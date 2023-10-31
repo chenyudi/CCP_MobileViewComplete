@@ -1,0 +1,37 @@
+body, h1, h2, p, ul, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+img, audio, video {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body, h1, h2, p {
+    font-family: inherit;
+    color: inherit;
+}
+
+div, section {
+    display: block;
+}
+
+button, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
